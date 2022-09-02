@@ -1,0 +1,27 @@
+{
+  "name": "mparticle-profile",
+  "version": "1.0.0",
+  "description": "Node client for mParticle's Profile API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/cpreid/mparticle-profile.git"
+  },
+  "keywords": [
+    "node",
+    "mparticle",
+    "profileapi"
+  ],
+  "author": "Cooper Reid",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/cpreid/mparticle-profile/issues"
+  },
+  "homepage": "https://github.com/cpreid/mparticle-profile#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
