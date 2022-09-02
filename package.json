@@ -1,6 +1,6 @@
 {
   "name": "mparticle-profile",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node client for mParticle's Profile API",
   "main": "index.js",
   "scripts": {
