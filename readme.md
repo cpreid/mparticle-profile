@@ -1,5 +1,5 @@
 # Node Client for mParticle's Profile
-Allow this node client to manage auth token refreshes & abstract calls for MPID lookups, exposing a single method `ProfileClient.getProfile(identities={})`
+Allow this node client to manage auth token refreshes & abstract calls for MPID lookups, exposing a single method `ProfileClient.getProfile(identities={})` that fetches a [customer profile from mParticle](https://docs.mparticle.com/developers/profile-api/#sample-response).
 
 ## Install via npm
 ```sh
