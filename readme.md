@@ -17,7 +17,7 @@ const profile = await MPProfileInstance.getProfile({email: "user@demo.com"});
 ```
 
 ### Constructor args
-Either pass in your mP API credentials and identifiers or set them to `env` vars.
+Either explicitly pass in your mP API credentials and identifiers or let the client read them from `env` vars.
 ```
 constructor(args={
   identity_input_key       : process.env.mp_identity_input_key, 
