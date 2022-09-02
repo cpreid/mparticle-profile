@@ -8,7 +8,7 @@ $ npm install mparticle-profile
  
 ## Usage 
 ```
-const MPProfile = require('./lib/mp-profile-client');
+const MPProfile = require('mparticle-profile');
 const MPProfileInstance = new MPProfile(); // see below for args
 
 // somewhere in an async function
